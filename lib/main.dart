@@ -1,5 +1,6 @@
 import 'dart:io';
 
+// ignore: unnecessary_import
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -10,6 +11,7 @@ import 'dart:convert';
 
 import 'package:intl/intl.dart';
 import 'package:location/location.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:startapp/startapp.dart';
 import 'package:weather_app/location.dart';
 
@@ -278,6 +280,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }*/
 
   void showSnackBar(String content) {
+    // ignore: deprecated_member_use
     scaffoldState.currentState!.showSnackBar(
       SnackBar(
         content: Text(content),
