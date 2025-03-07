@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Uri url2 = Uri.http("api.openweathermap.org", "/data/2.5/weather", {
       "lat": latitude.toString(),
       'lon': longitude.toString(),
-      'appid': '2beb83c72a7edba1158a6b1cc981f660',
+      'appid': 'eb83c72a7edba1158a6b1cc981f660',
       'units': unit
     });
     //https://tile.openweathermap.org/map/temp_new/0/5.3/2.1.png?appid={API key}
@@ -171,7 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Future getWeather2(city) async {
     Uri url2 = Uri.http("api.openweathermap.org", "/data/2.5/weather", {
       "q": city,
-      'appid': '2beb83c72a7edba1158a6b1cc981f660',
+      'appid': 'eb83c72a7edba1158a6b1cc981f660',
       'units': 'metric'
     });
 
@@ -190,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Uri url2 = Uri.http("api.openweathermap.org", "/data/2.5/onecall", {
       "lat": latitude.toString(),
       'lon': longitude.toString(),
-      'appid': '2beb83c72a7edba1158a6b1cc981f660',
+      'appid': 'eb83c72a7edba1158a6b1cc981f660',
       'units': units
     });
 
